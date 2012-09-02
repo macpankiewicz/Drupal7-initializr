@@ -1,0 +1,23 @@
+/* ========================================================================== 
+ 
+   Drupal 7 HTML5 clean base theme 
+
+   Tweaked by
+   Maciej Pankiewicz  //twitter: @macpankiewicz
+   
+
+   Based on Boilerplate theme by Dan Linn at Metal Toad Media
+   Preprocessor SASS (PHPSass compiler)
+
+========================================================================== */
+
+
+
+@import "vars"; 	// Imports default variables and mixins.
+@import "base";     // Establishes general color and typography rules and browser resets.
+@import "layout";   // Defines positioning of major page elements.
+@import "modules";  // Defines module styles.
+//@import "mobile"; // We can now define our mobile styles inline
+@import "print";    // Defines styles for printing.
+@import "ie7";      // Fixes to support IE7.
+@import "ie6";      // Fixes to support IE6.
